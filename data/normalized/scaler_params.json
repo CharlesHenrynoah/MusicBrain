@@ -1,0 +1,1644 @@
+{
+  "n_patterns": 305,
+  "n_dims": 32,
+  "feature_names": [
+    "n_events",
+    "attacks_per_measure",
+    "mean_duration",
+    "median_duration",
+    "silence_rate",
+    "mean_inter_onset",
+    "ioi_variability",
+    "rhythmic_regularity",
+    "mean_pitch",
+    "min_pitch",
+    "max_pitch",
+    "pitch_range",
+    "mean_interval",
+    "mean_jump",
+    "asc_motion_ratio",
+    "desc_motion_ratio",
+    "pc_0",
+    "pc_1",
+    "pc_2",
+    "pc_3",
+    "pc_4",
+    "pc_5",
+    "pc_6",
+    "pc_7",
+    "pc_8",
+    "pc_9",
+    "pc_10",
+    "pc_11",
+    "mean_polyphony",
+    "max_polyphony",
+    "poly_event_ratio",
+    "mean_chord_size"
+  ],
+  "mean": [
+    48.3672131147541,
+    5.304918032786885,
+    1.9806764682605877,
+    1.8090163934426229,
+    0.18317110655737706,
+    2.5412001539442226,
+    1.3182044398347827,
+    0.6826757833888285,
+    61.38005927463236,
+    46.38688524590164,
+    75.54426229508196,
+    29.15737704918033,
+    0.07224370711829742,
+    5.5430152057837345,
+    0.4132211942523468,
+    0.42166253442339063,
+    0.16653696079498917,
+    0.019156356740379073,
+    0.09958162356210998,
+    0.015576911942380464,
+    0.15673370703818973,
+    0.0887291939408128,
+    0.016216528665526576,
+    0.11618501433246416,
+    0.021737052210281674,
+    0.1736279201597203,
+    0.021385631591372,
+    0.10453309902177402,
+    2.210195290789597,
+    3.940983606557377,
+    0.5482570480725139,
+    2.7727912202640845
+  ],
+  "std": [
+    28.102789788072887,
+    3.3869409879087735,
+    1.4623024632257542,
+    1.639609814557583,
+    0.1691057160461844,
+    2.4521837327241713,
+    1.4511323713874926,
+    0.14275732624950638,
+    9.98888022645306,
+    12.77296678388546,
+    11.489931794946084,
+    13.68263778394672,
+    0.46873988839214586,
+    3.467555757126219,
+    0.143523441059353,
+    0.13265632164157157,
+    0.12217416841405604,
+    0.05941767330175775,
+    0.10252656587546173,
+    0.048027969361986424,
+    0.11641450870675712,
+    0.09281750223466737,
+    0.046923054840892924,
+    0.11623480811422021,
+    0.05409643013016398,
+    0.14194215102577637,
+    0.05648597213918848,
+    0.11807442118576233,
+    1.002627029161902,
+    1.8438535066077255,
+    0.32397961963228666,
+    1.282455441668843
+  ],
+  "ddof": 0,
+  "eps": 1e-12,
+  "constant_dims": [],
+  "constant_feature_names": [],
+  "zero_l2_rows_after_zscore": [],
+  "transform": [
+    "z_ij = 0 if sigma_j < eps else (x_ij - mu_j) / sigma_j",
+    "V_i = 0 if ||Z_i||_2 < eps else Z_i / ||Z_i||_2"
+  ],
+  "index": [
+    {
+      "row": 0,
+      "pattern_id": "281581",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 1,
+      "pattern_id": "281970",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 2,
+      "pattern_id": "284110",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 3,
+      "pattern_id": "294671",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 4,
+      "pattern_id": "294906",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 5,
+      "pattern_id": "294911",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 6,
+      "pattern_id": "294920",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 7,
+      "pattern_id": "295034",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 8,
+      "pattern_id": "295035",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 9,
+      "pattern_id": "295048",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 10,
+      "pattern_id": "295050",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 11,
+      "pattern_id": "297144",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 12,
+      "pattern_id": "297249",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 13,
+      "pattern_id": "297250",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 14,
+      "pattern_id": "297251",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 15,
+      "pattern_id": "297252",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 16,
+      "pattern_id": "297253",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 17,
+      "pattern_id": "298086",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 18,
+      "pattern_id": "298545",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 19,
+      "pattern_id": "298825",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 20,
+      "pattern_id": "299246",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 21,
+      "pattern_id": "299247",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 22,
+      "pattern_id": "299341",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 23,
+      "pattern_id": "299411",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 24,
+      "pattern_id": "299413",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 25,
+      "pattern_id": "299538",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 26,
+      "pattern_id": "300335",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 27,
+      "pattern_id": "300337",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 28,
+      "pattern_id": "300338",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 29,
+      "pattern_id": "300339",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 30,
+      "pattern_id": "300340",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 31,
+      "pattern_id": "302678",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 32,
+      "pattern_id": "305251",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 33,
+      "pattern_id": "305369",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 34,
+      "pattern_id": "305477",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 35,
+      "pattern_id": "305734",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 36,
+      "pattern_id": "306822",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 37,
+      "pattern_id": "307049",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 38,
+      "pattern_id": "307877",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 39,
+      "pattern_id": "308639",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 40,
+      "pattern_id": "308640",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 41,
+      "pattern_id": "308642",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 42,
+      "pattern_id": "310277",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 43,
+      "pattern_id": "315537",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 44,
+      "pattern_id": "326540",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 45,
+      "pattern_id": "327962",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 46,
+      "pattern_id": "329185",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 47,
+      "pattern_id": "330057",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 48,
+      "pattern_id": "334208",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 49,
+      "pattern_id": "338840",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 50,
+      "pattern_id": "343361",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 51,
+      "pattern_id": "345588",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 52,
+      "pattern_id": "348071",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 53,
+      "pattern_id": "351355",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 54,
+      "pattern_id": "351928",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 55,
+      "pattern_id": "353205",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 56,
+      "pattern_id": "355392",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 57,
+      "pattern_id": "355853",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 58,
+      "pattern_id": "356158",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 59,
+      "pattern_id": "356204",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 60,
+      "pattern_id": "362093",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 61,
+      "pattern_id": "362095",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 62,
+      "pattern_id": "362096",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 63,
+      "pattern_id": "367605",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 64,
+      "pattern_id": "370215",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 65,
+      "pattern_id": "370493",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 66,
+      "pattern_id": "370530",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 67,
+      "pattern_id": "370533",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 68,
+      "pattern_id": "370535",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 69,
+      "pattern_id": "375714",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 70,
+      "pattern_id": "376212",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 71,
+      "pattern_id": "377689",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 72,
+      "pattern_id": "382215",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 73,
+      "pattern_id": "382888",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 74,
+      "pattern_id": "383739",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 75,
+      "pattern_id": "384025",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 76,
+      "pattern_id": "389368",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 77,
+      "pattern_id": "389754",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 78,
+      "pattern_id": "390480",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 79,
+      "pattern_id": "391674",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 80,
+      "pattern_id": "391964",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 81,
+      "pattern_id": "393139",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 82,
+      "pattern_id": "394635",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 83,
+      "pattern_id": "396534",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 84,
+      "pattern_id": "396571",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 85,
+      "pattern_id": "396726",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 86,
+      "pattern_id": "397873",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 87,
+      "pattern_id": "397934",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 88,
+      "pattern_id": "398473",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 89,
+      "pattern_id": "398537",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 90,
+      "pattern_id": "398649",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 91,
+      "pattern_id": "402280",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 92,
+      "pattern_id": "402281",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 93,
+      "pattern_id": "402282",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 94,
+      "pattern_id": "402869",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 95,
+      "pattern_id": "402880",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 96,
+      "pattern_id": "403090",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 97,
+      "pattern_id": "403847",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 98,
+      "pattern_id": "406363",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 99,
+      "pattern_id": "406441",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 100,
+      "pattern_id": "406514",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 101,
+      "pattern_id": "406766",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 102,
+      "pattern_id": "407080",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 103,
+      "pattern_id": "408274",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 104,
+      "pattern_id": "410410",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 105,
+      "pattern_id": "411062",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 106,
+      "pattern_id": "411110",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 107,
+      "pattern_id": "411519",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 108,
+      "pattern_id": "411671",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 109,
+      "pattern_id": "411760",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 110,
+      "pattern_id": "411962",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 111,
+      "pattern_id": "413341",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 112,
+      "pattern_id": "414917",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 113,
+      "pattern_id": "417047",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 114,
+      "pattern_id": "418021",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 115,
+      "pattern_id": "418676",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 116,
+      "pattern_id": "420126",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 117,
+      "pattern_id": "421086",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 118,
+      "pattern_id": "423943",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 119,
+      "pattern_id": "424932",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 120,
+      "pattern_id": "424933",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 121,
+      "pattern_id": "429413",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 122,
+      "pattern_id": "430317",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 123,
+      "pattern_id": "430318",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 124,
+      "pattern_id": "430320",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 125,
+      "pattern_id": "431026",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 126,
+      "pattern_id": "431170",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 127,
+      "pattern_id": "431171",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 128,
+      "pattern_id": "431680",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 129,
+      "pattern_id": "431786",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 130,
+      "pattern_id": "431818",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 131,
+      "pattern_id": "431825",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 132,
+      "pattern_id": "431841",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 133,
+      "pattern_id": "431852",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 134,
+      "pattern_id": "431870",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 135,
+      "pattern_id": "431887",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 136,
+      "pattern_id": "431894",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 137,
+      "pattern_id": "431953",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 138,
+      "pattern_id": "431980",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 139,
+      "pattern_id": "432081",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 140,
+      "pattern_id": "432107",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 141,
+      "pattern_id": "432233",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 142,
+      "pattern_id": "432291",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 143,
+      "pattern_id": "432304",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 144,
+      "pattern_id": "432359",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 145,
+      "pattern_id": "432408",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 146,
+      "pattern_id": "432417",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 147,
+      "pattern_id": "432420",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 148,
+      "pattern_id": "432521",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 149,
+      "pattern_id": "432634",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 150,
+      "pattern_id": "432746",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 151,
+      "pattern_id": "432750",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 152,
+      "pattern_id": "432766",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 153,
+      "pattern_id": "432788",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 154,
+      "pattern_id": "432921",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 155,
+      "pattern_id": "432956",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 156,
+      "pattern_id": "433027",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 157,
+      "pattern_id": "433120",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 158,
+      "pattern_id": "433251",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 159,
+      "pattern_id": "433252",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 160,
+      "pattern_id": "433310",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 161,
+      "pattern_id": "433347",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 162,
+      "pattern_id": "433365",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 163,
+      "pattern_id": "433366",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 164,
+      "pattern_id": "433369",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 165,
+      "pattern_id": "433417",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 166,
+      "pattern_id": "433456",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 167,
+      "pattern_id": "433469",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 168,
+      "pattern_id": "433513",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 169,
+      "pattern_id": "433542",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 170,
+      "pattern_id": "433546",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 171,
+      "pattern_id": "433552",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 172,
+      "pattern_id": "433565",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 173,
+      "pattern_id": "433575",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 174,
+      "pattern_id": "433592",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 175,
+      "pattern_id": "433746",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 176,
+      "pattern_id": "433752",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 177,
+      "pattern_id": "433758",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 178,
+      "pattern_id": "433783",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 179,
+      "pattern_id": "433829",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 180,
+      "pattern_id": "433904",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 181,
+      "pattern_id": "433911",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 182,
+      "pattern_id": "433915",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 183,
+      "pattern_id": "433967",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 184,
+      "pattern_id": "433968",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 185,
+      "pattern_id": "433970",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 186,
+      "pattern_id": "433971",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 187,
+      "pattern_id": "434013",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 188,
+      "pattern_id": "434028",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 189,
+      "pattern_id": "434030",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 190,
+      "pattern_id": "434031",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 191,
+      "pattern_id": "434200",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 192,
+      "pattern_id": "434201",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 193,
+      "pattern_id": "434202",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 194,
+      "pattern_id": "434258",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 195,
+      "pattern_id": "434287",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 196,
+      "pattern_id": "434301",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 197,
+      "pattern_id": "434334",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 198,
+      "pattern_id": "434522",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 199,
+      "pattern_id": "434646",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 200,
+      "pattern_id": "434678",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 201,
+      "pattern_id": "434680",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 202,
+      "pattern_id": "434753",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 203,
+      "pattern_id": "434861",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 204,
+      "pattern_id": "434864",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 205,
+      "pattern_id": "434866",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 206,
+      "pattern_id": "434989",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 207,
+      "pattern_id": "435045",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 208,
+      "pattern_id": "435048",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 209,
+      "pattern_id": "435064",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 210,
+      "pattern_id": "435126",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 211,
+      "pattern_id": "435139",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 212,
+      "pattern_id": "435151",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 213,
+      "pattern_id": "435261",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 214,
+      "pattern_id": "435299",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 215,
+      "pattern_id": "435313",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 216,
+      "pattern_id": "435315",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 217,
+      "pattern_id": "435394",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 218,
+      "pattern_id": "435469",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 219,
+      "pattern_id": "435495",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 220,
+      "pattern_id": "435586",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 221,
+      "pattern_id": "435588",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 222,
+      "pattern_id": "435590",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 223,
+      "pattern_id": "435592",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 224,
+      "pattern_id": "435611",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 225,
+      "pattern_id": "435667",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 226,
+      "pattern_id": "435670",
+      "instrument": "Synth lead"
+    },
+    {
+      "row": 227,
+      "pattern_id": "298446",
+      "instrument": "Keys"
+    },
+    {
+      "row": 228,
+      "pattern_id": "315537",
+      "instrument": "Keys"
+    },
+    {
+      "row": 229,
+      "pattern_id": "329977",
+      "instrument": "Keys"
+    },
+    {
+      "row": 230,
+      "pattern_id": "341192",
+      "instrument": "Keys"
+    },
+    {
+      "row": 231,
+      "pattern_id": "341193",
+      "instrument": "Keys"
+    },
+    {
+      "row": 232,
+      "pattern_id": "343361",
+      "instrument": "Keys"
+    },
+    {
+      "row": 233,
+      "pattern_id": "344078",
+      "instrument": "Keys"
+    },
+    {
+      "row": 234,
+      "pattern_id": "348071",
+      "instrument": "Keys"
+    },
+    {
+      "row": 235,
+      "pattern_id": "353205",
+      "instrument": "Keys"
+    },
+    {
+      "row": 236,
+      "pattern_id": "356158",
+      "instrument": "Keys"
+    },
+    {
+      "row": 237,
+      "pattern_id": "370215",
+      "instrument": "Keys"
+    },
+    {
+      "row": 238,
+      "pattern_id": "370535",
+      "instrument": "Keys"
+    },
+    {
+      "row": 239,
+      "pattern_id": "381931",
+      "instrument": "Keys"
+    },
+    {
+      "row": 240,
+      "pattern_id": "396726",
+      "instrument": "Keys"
+    },
+    {
+      "row": 241,
+      "pattern_id": "397873",
+      "instrument": "Keys"
+    },
+    {
+      "row": 242,
+      "pattern_id": "398537",
+      "instrument": "Keys"
+    },
+    {
+      "row": 243,
+      "pattern_id": "402869",
+      "instrument": "Keys"
+    },
+    {
+      "row": 244,
+      "pattern_id": "406363",
+      "instrument": "Keys"
+    },
+    {
+      "row": 245,
+      "pattern_id": "410410",
+      "instrument": "Keys"
+    },
+    {
+      "row": 246,
+      "pattern_id": "411760",
+      "instrument": "Keys"
+    },
+    {
+      "row": 247,
+      "pattern_id": "417047",
+      "instrument": "Keys"
+    },
+    {
+      "row": 248,
+      "pattern_id": "423047",
+      "instrument": "Keys"
+    },
+    {
+      "row": 249,
+      "pattern_id": "424932",
+      "instrument": "Keys"
+    },
+    {
+      "row": 250,
+      "pattern_id": "424933",
+      "instrument": "Keys"
+    },
+    {
+      "row": 251,
+      "pattern_id": "427887",
+      "instrument": "Keys"
+    },
+    {
+      "row": 252,
+      "pattern_id": "429413",
+      "instrument": "Keys"
+    },
+    {
+      "row": 253,
+      "pattern_id": "431966",
+      "instrument": "Keys"
+    },
+    {
+      "row": 254,
+      "pattern_id": "432081",
+      "instrument": "Keys"
+    },
+    {
+      "row": 255,
+      "pattern_id": "432359",
+      "instrument": "Keys"
+    },
+    {
+      "row": 256,
+      "pattern_id": "432521",
+      "instrument": "Keys"
+    },
+    {
+      "row": 257,
+      "pattern_id": "432567",
+      "instrument": "Keys"
+    },
+    {
+      "row": 258,
+      "pattern_id": "432921",
+      "instrument": "Keys"
+    },
+    {
+      "row": 259,
+      "pattern_id": "433464",
+      "instrument": "Keys"
+    },
+    {
+      "row": 260,
+      "pattern_id": "433565",
+      "instrument": "Keys"
+    },
+    {
+      "row": 261,
+      "pattern_id": "433575",
+      "instrument": "Keys"
+    },
+    {
+      "row": 262,
+      "pattern_id": "433579",
+      "instrument": "Keys"
+    },
+    {
+      "row": 263,
+      "pattern_id": "433758",
+      "instrument": "Keys"
+    },
+    {
+      "row": 264,
+      "pattern_id": "433763",
+      "instrument": "Keys"
+    },
+    {
+      "row": 265,
+      "pattern_id": "433829",
+      "instrument": "Keys"
+    },
+    {
+      "row": 266,
+      "pattern_id": "433915",
+      "instrument": "Keys"
+    },
+    {
+      "row": 267,
+      "pattern_id": "434028",
+      "instrument": "Keys"
+    },
+    {
+      "row": 268,
+      "pattern_id": "434301",
+      "instrument": "Keys"
+    },
+    {
+      "row": 269,
+      "pattern_id": "434522",
+      "instrument": "Keys"
+    },
+    {
+      "row": 270,
+      "pattern_id": "434646",
+      "instrument": "Keys"
+    },
+    {
+      "row": 271,
+      "pattern_id": "434866",
+      "instrument": "Keys"
+    },
+    {
+      "row": 272,
+      "pattern_id": "435048",
+      "instrument": "Keys"
+    },
+    {
+      "row": 273,
+      "pattern_id": "435371",
+      "instrument": "Keys"
+    },
+    {
+      "row": 274,
+      "pattern_id": "353205",
+      "instrument": "Bell"
+    },
+    {
+      "row": 275,
+      "pattern_id": "356158",
+      "instrument": "Bell"
+    },
+    {
+      "row": 276,
+      "pattern_id": "370493",
+      "instrument": "Bell"
+    },
+    {
+      "row": 277,
+      "pattern_id": "402881",
+      "instrument": "Bell"
+    },
+    {
+      "row": 278,
+      "pattern_id": "416068",
+      "instrument": "Bell"
+    },
+    {
+      "row": 279,
+      "pattern_id": "432417",
+      "instrument": "Bell"
+    },
+    {
+      "row": 280,
+      "pattern_id": "432553",
+      "instrument": "Bell"
+    },
+    {
+      "row": 281,
+      "pattern_id": "433198",
+      "instrument": "Bell"
+    },
+    {
+      "row": 282,
+      "pattern_id": "433552",
+      "instrument": "Bell"
+    },
+    {
+      "row": 283,
+      "pattern_id": "298825",
+      "instrument": "Guitar"
+    },
+    {
+      "row": 284,
+      "pattern_id": "302678",
+      "instrument": "Guitar"
+    },
+    {
+      "row": 285,
+      "pattern_id": "370215",
+      "instrument": "Guitar"
+    },
+    {
+      "row": 286,
+      "pattern_id": "382215",
+      "instrument": "Guitar"
+    },
+    {
+      "row": 287,
+      "pattern_id": "386803",
+      "instrument": "Guitar"
+    },
+    {
+      "row": 288,
+      "pattern_id": "398537",
+      "instrument": "Guitar"
+    },
+    {
+      "row": 289,
+      "pattern_id": "402880",
+      "instrument": "Guitar"
+    },
+    {
+      "row": 290,
+      "pattern_id": "411962",
+      "instrument": "Guitar"
+    },
+    {
+      "row": 291,
+      "pattern_id": "421086",
+      "instrument": "Guitar"
+    },
+    {
+      "row": 292,
+      "pattern_id": "432359",
+      "instrument": "Guitar"
+    },
+    {
+      "row": 293,
+      "pattern_id": "432417",
+      "instrument": "Guitar"
+    },
+    {
+      "row": 294,
+      "pattern_id": "433252",
+      "instrument": "Guitar"
+    },
+    {
+      "row": 295,
+      "pattern_id": "435137",
+      "instrument": "Guitar"
+    },
+    {
+      "row": 296,
+      "pattern_id": "281581",
+      "instrument": "Bass"
+    },
+    {
+      "row": 297,
+      "pattern_id": "298545",
+      "instrument": "Bass"
+    },
+    {
+      "row": 298,
+      "pattern_id": "298825",
+      "instrument": "Bass"
+    },
+    {
+      "row": 299,
+      "pattern_id": "383739",
+      "instrument": "Bass"
+    },
+    {
+      "row": 300,
+      "pattern_id": "429413",
+      "instrument": "Bass"
+    },
+    {
+      "row": 301,
+      "pattern_id": "431818",
+      "instrument": "Bass"
+    },
+    {
+      "row": 302,
+      "pattern_id": "432304",
+      "instrument": "Bass"
+    },
+    {
+      "row": 303,
+      "pattern_id": "432766",
+      "instrument": "Bass"
+    },
+    {
+      "row": 304,
+      "pattern_id": "433592",
+      "instrument": "Bass"
+    }
+  ],
+  "source_vectors": "data/vectors32.npy",
+  "source_meta": "data/vectors32_meta.json"
+}

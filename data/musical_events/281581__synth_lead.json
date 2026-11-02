@@ -1,0 +1,234 @@
+{
+  "pattern_id": "281581",
+  "instrument": "Synth lead",
+  "bpm": 140,
+  "original_key": "Am",
+  "time_signature": "4/4",
+  "measures": [
+    {
+      "measure": 0,
+      "events": [
+        {
+          "type": "rest",
+          "onset": 0,
+          "duration": 4,
+          "pitches": []
+        },
+        {
+          "type": "chord",
+          "onset": 4,
+          "duration": 2,
+          "pitches": [
+            57,
+            69
+          ]
+        },
+        {
+          "type": "chord",
+          "onset": 6,
+          "duration": 2,
+          "pitches": [
+            57,
+            69
+          ]
+        }
+      ]
+    },
+    {
+      "measure": 1,
+      "events": [
+        {
+          "type": "rest",
+          "onset": 0,
+          "duration": 1,
+          "pitches": []
+        },
+        {
+          "type": "chord",
+          "onset": 1,
+          "duration": 3,
+          "pitches": [
+            31,
+            55,
+            67
+          ]
+        },
+        {
+          "type": "chord",
+          "onset": 4,
+          "duration": 4,
+          "pitches": [
+            29,
+            55,
+            67
+          ]
+        }
+      ]
+    },
+    {
+      "measure": 2,
+      "events": [
+        {
+          "type": "chord",
+          "onset": 0,
+          "duration": 1.5,
+          "pitches": [
+            33,
+            45,
+            57,
+            69
+          ]
+        },
+        {
+          "type": "rest",
+          "onset": 1.5,
+          "duration": 2.5,
+          "pitches": []
+        },
+        {
+          "type": "chord",
+          "onset": 4,
+          "duration": 4,
+          "pitches": [
+            69,
+            79
+          ]
+        }
+      ]
+    },
+    {
+      "measure": 3,
+      "events": [
+        {
+          "type": "rest",
+          "onset": 0,
+          "duration": 1,
+          "pitches": []
+        },
+        {
+          "type": "chord",
+          "onset": 1,
+          "duration": 3,
+          "pitches": [
+            31,
+            67
+          ]
+        },
+        {
+          "type": "chord",
+          "onset": 4,
+          "duration": 4,
+          "pitches": [
+            29,
+            67
+          ]
+        }
+      ]
+    },
+    {
+      "measure": 4,
+      "events": [
+        {
+          "type": "chord",
+          "onset": 0,
+          "duration": 4,
+          "pitches": [
+            33,
+            45,
+            69
+          ]
+        },
+        {
+          "type": "chord",
+          "onset": 4,
+          "duration": 4,
+          "pitches": [
+            69
+          ]
+        }
+      ]
+    },
+    {
+      "measure": 5,
+      "events": [
+        {
+          "type": "rest",
+          "onset": 0,
+          "duration": 1,
+          "pitches": []
+        },
+        {
+          "type": "chord",
+          "onset": 1,
+          "duration": 3,
+          "pitches": [
+            31,
+            67
+          ]
+        },
+        {
+          "type": "chord",
+          "onset": 4,
+          "duration": 4,
+          "pitches": [
+            29,
+            67
+          ]
+        }
+      ]
+    },
+    {
+      "measure": 6,
+      "events": [
+        {
+          "type": "chord",
+          "onset": 0,
+          "duration": 4,
+          "pitches": [
+            33,
+            45,
+            69
+          ]
+        },
+        {
+          "type": "chord",
+          "onset": 4,
+          "duration": 4,
+          "pitches": [
+            69
+          ]
+        }
+      ]
+    },
+    {
+      "measure": 7,
+      "events": [
+        {
+          "type": "rest",
+          "onset": 0,
+          "duration": 1,
+          "pitches": []
+        },
+        {
+          "type": "chord",
+          "onset": 1,
+          "duration": 3,
+          "pitches": [
+            31,
+            67
+          ]
+        },
+        {
+          "type": "chord",
+          "onset": 4,
+          "duration": 4,
+          "pitches": [
+            29,
+            55,
+            67
+          ]
+        }
+      ]
+    }
+  ]
+}

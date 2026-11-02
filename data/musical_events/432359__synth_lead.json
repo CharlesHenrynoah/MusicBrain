@@ -1,0 +1,438 @@
+{
+  "pattern_id": "432359",
+  "instrument": "Synth lead",
+  "bpm": 135,
+  "original_key": "Em",
+  "time_signature": "4/4",
+  "measures": [
+    {
+      "measure": 0,
+      "events": [
+        {
+          "type": "rest",
+          "onset": 0,
+          "duration": 1.5,
+          "pitches": []
+        },
+        {
+          "type": "chord",
+          "onset": 1.5,
+          "duration": 2.5,
+          "pitches": [
+            71
+          ]
+        },
+        {
+          "type": "chord",
+          "onset": 4,
+          "duration": 2,
+          "pitches": [
+            71
+          ]
+        },
+        {
+          "type": "chord",
+          "onset": 6,
+          "duration": 2,
+          "pitches": [
+            48,
+            67,
+            71
+          ]
+        }
+      ]
+    },
+    {
+      "measure": 1,
+      "events": [
+        {
+          "type": "chord",
+          "onset": 0,
+          "duration": 2.5,
+          "pitches": [
+            48,
+            67,
+            71
+          ]
+        },
+        {
+          "type": "rest",
+          "onset": 2.5,
+          "duration": 1.5,
+          "pitches": []
+        },
+        {
+          "type": "chord",
+          "onset": 4,
+          "duration": 2,
+          "pitches": [
+            53,
+            60,
+            72
+          ]
+        },
+        {
+          "type": "chord",
+          "onset": 6,
+          "duration": 2,
+          "pitches": [
+            53,
+            60,
+            72
+          ]
+        }
+      ]
+    },
+    {
+      "measure": 2,
+      "events": [
+        {
+          "type": "chord",
+          "onset": 0,
+          "duration": 1.5,
+          "pitches": [
+            53,
+            60,
+            72
+          ]
+        },
+        {
+          "type": "chord",
+          "onset": 1.5,
+          "duration": 2.5,
+          "pitches": [
+            52,
+            59,
+            71
+          ]
+        },
+        {
+          "type": "chord",
+          "onset": 4,
+          "duration": 2,
+          "pitches": [
+            52,
+            59,
+            71
+          ]
+        },
+        {
+          "type": "rest",
+          "onset": 6,
+          "duration": 1.5,
+          "pitches": []
+        },
+        {
+          "type": "chord",
+          "onset": 7.5,
+          "duration": 0.5,
+          "pitches": [
+            45,
+            64,
+            71
+          ]
+        }
+      ]
+    },
+    {
+      "measure": 3,
+      "events": [
+        {
+          "type": "rest",
+          "onset": 0,
+          "duration": 2,
+          "pitches": []
+        },
+        {
+          "type": "chord",
+          "onset": 2,
+          "duration": 2,
+          "pitches": [
+            45,
+            64,
+            71
+          ]
+        },
+        {
+          "type": "rest",
+          "onset": 4,
+          "duration": 0.5,
+          "pitches": []
+        },
+        {
+          "type": "chord",
+          "onset": 4.5,
+          "duration": 1,
+          "pitches": [
+            45,
+            64,
+            71
+          ]
+        },
+        {
+          "type": "chord",
+          "onset": 5.5,
+          "duration": 0.5,
+          "pitches": [
+            48,
+            55,
+            60,
+            67
+          ]
+        },
+        {
+          "type": "chord",
+          "onset": 6,
+          "duration": 2,
+          "pitches": [
+            48,
+            55,
+            67
+          ]
+        }
+      ]
+    },
+    {
+      "measure": 4,
+      "events": [
+        {
+          "type": "chord",
+          "onset": 0,
+          "duration": 2,
+          "pitches": [
+            48,
+            55,
+            60,
+            67
+          ]
+        },
+        {
+          "type": "chord",
+          "onset": 2,
+          "duration": 1,
+          "pitches": [
+            52
+          ]
+        },
+        {
+          "type": "chord",
+          "onset": 3,
+          "duration": 1,
+          "pitches": [
+            55
+          ]
+        },
+        {
+          "type": "chord",
+          "onset": 4,
+          "duration": 1.5,
+          "pitches": [
+            53,
+            60,
+            72
+          ]
+        },
+        {
+          "type": "chord",
+          "onset": 5.5,
+          "duration": 0.5,
+          "pitches": [
+            53,
+            60,
+            72
+          ]
+        },
+        {
+          "type": "chord",
+          "onset": 6,
+          "duration": 1.5,
+          "pitches": [
+            53,
+            60,
+            72
+          ]
+        },
+        {
+          "type": "chord",
+          "onset": 7.5,
+          "duration": 0.5,
+          "pitches": [
+            53,
+            60,
+            72
+          ]
+        }
+      ]
+    },
+    {
+      "measure": 5,
+      "events": [
+        {
+          "type": "chord",
+          "onset": 0,
+          "duration": 1.5,
+          "pitches": [
+            53,
+            60,
+            72
+          ]
+        },
+        {
+          "type": "chord",
+          "onset": 1.5,
+          "duration": 2.5,
+          "pitches": [
+            52,
+            59,
+            71
+          ]
+        },
+        {
+          "type": "chord",
+          "onset": 4,
+          "duration": 4,
+          "pitches": [
+            52,
+            59,
+            71
+          ]
+        }
+      ]
+    },
+    {
+      "measure": 6,
+      "events": [
+        {
+          "type": "chord",
+          "onset": 0,
+          "duration": 1,
+          "pitches": [
+            45,
+            52,
+            57,
+            64,
+            76,
+            88
+          ]
+        },
+        {
+          "type": "chord",
+          "onset": 1,
+          "duration": 1,
+          "pitches": [
+            45,
+            64
+          ]
+        },
+        {
+          "type": "chord",
+          "onset": 2,
+          "duration": 1.5,
+          "pitches": [
+            45,
+            52,
+            57,
+            64,
+            76,
+            88
+          ]
+        },
+        {
+          "type": "chord",
+          "onset": 3.5,
+          "duration": 0.5,
+          "pitches": [
+            45,
+            64
+          ]
+        },
+        {
+          "type": "chord",
+          "onset": 4,
+          "duration": 1.5,
+          "pitches": [
+            45,
+            52,
+            57,
+            64,
+            76,
+            88
+          ]
+        },
+        {
+          "type": "chord",
+          "onset": 5.5,
+          "duration": 2.5,
+          "pitches": [
+            48,
+            55,
+            60,
+            67
+          ]
+        }
+      ]
+    },
+    {
+      "measure": 7,
+      "events": [
+        {
+          "type": "chord",
+          "onset": 0,
+          "duration": 3.5,
+          "pitches": [
+            48,
+            55,
+            60,
+            67
+          ]
+        },
+        {
+          "type": "chord",
+          "onset": 3.5,
+          "duration": 1.5,
+          "pitches": [
+            53,
+            60,
+            65,
+            72,
+            76,
+            88
+          ]
+        },
+        {
+          "type": "chord",
+          "onset": 5,
+          "duration": 1,
+          "pitches": [
+            53,
+            60,
+            72
+          ]
+        },
+        {
+          "type": "chord",
+          "onset": 6,
+          "duration": 1.5,
+          "pitches": [
+            53,
+            60,
+            65,
+            72,
+            76,
+            88
+          ]
+        },
+        {
+          "type": "chord",
+          "onset": 7.5,
+          "duration": 0.5,
+          "pitches": [
+            53,
+            60,
+            72
+          ]
+        }
+      ]
+    }
+  ]
+}

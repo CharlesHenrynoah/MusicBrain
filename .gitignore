@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+.DS_Store
+musicbrain/ui/node_modules/
+musicbrain/ui/dist/
+data/event_matrices_npy/
+data/vectors32/
+*.egg-info/
+.mypy_cache/
+.cursor/

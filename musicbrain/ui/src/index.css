@@ -1,0 +1,47 @@
+:root {
+  --ink: #000000;
+  --fog: #0a0a0a;
+  --mist: #141414;
+  --paper: #ffffff;
+  --muted: #8a8a8a;
+  --accent: #ffffff;
+  --accent-hot: #ffffff;
+  --hit: #ffffff;
+  --query: #ffffff;
+  --line: rgba(255, 255, 255, 0.14);
+  --glow: rgba(255, 255, 255, 0.12);
+  font-family: "Syne", sans-serif;
+  color: var(--paper);
+  background: var(--ink);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  background: #000000;
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+}
+
+code,
+.mono {
+  font-family: "IBM Plex Mono", monospace;
+}
